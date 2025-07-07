@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.log
+*.pth
+*.pt
+*.zip
+*.tar.gz
+checkpoints/
+experiments/*/logs/
+.vscode/
+.DS_Store
+.env
