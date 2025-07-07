@@ -1,21 +1,64 @@
-  
-# image-compression-and-decompression
-# Image Compression and Decompression
+# 🧠 Image Compression and Decompression
 
-This project contains a Mamba-based deep learning framework for efficient image compression and decompression.
+This project implements a Mamba-based deep learning framework for efficient image compression and decompression. The model is trained to minimize distortion while maximizing compression efficiency.
+
+---
 
 ## 📊 Validation Results
 
-Graphs include:
-- BPP vs PSNR
-- BPP vs MS-SSIM
-- BPP vs Loss
+The following validation graphs are generated to evaluate the model performance:
+
+- **BPP vs PSNR**
+- **BPP vs MS-SSIM**
+- **BPP vs Loss**
+
+You can find the plot here:  
+📁 `validation_bpp_curves.png`
+
+---
 
 ## 🖼️ Reconstructed Images
 
-Sample reconstructed images are available in the `reconstructed_images/` folder.
+The reconstructed images demonstrate how well the model preserves visual quality after compression. Some sample images are:
 
-## 🔗 Download Best Model
+- `kodim01.png`
+- `kodim08.png`
+- `kodim24.png`
 
-The best model checkpoint is too large for GitHub.  
-You can download it here: [Download model](https://drive.google.com/your-shareable-link)
+All reconstructed output images are located in the folder:  
+�� `reconstructed_images/`
+
+These images were generated using the **best trained model checkpoint**:
+
+📍 `experiments/Mamba_Final_Correct_Path/checkpoints/best_model_e081_loss0.4181.pth.tar`
+
+> ℹ️ **Note**: This model file exceeds GitHub's upload limit of 100MB, so it is hosted externally.
+
+---
+
+## �� Download Best Model
+
+You can download the best model checkpoint from this link:  
+👉 [Download best_model_e081_loss0.4181.pth.tar](https://drive.google.com/your-shareable-link)
+
+---
+
+## 📦 Folder Structure
+
+
+---
+
+## 🧪 Evaluation Metrics
+
+The model performance is evaluated using:
+
+- **PSNR (Peak Signal-to-Noise Ratio)**
+- **MS-SSIM (Multi-Scale Structural Similarity Index)**
+- **LPIPS (Learned Perceptual Image Patch Similarity)**
+- **Compression Ratio (BPP)**
+
+---
+
+## ✍️ Citation
+
+If you use this project in your research or publication, please cite it appropriately.
