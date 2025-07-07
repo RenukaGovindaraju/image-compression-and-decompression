@@ -9,7 +9,6 @@ This project implements a Mamba-based deep learning framework for efficient imag
 The following validation graphs are generated to evaluate the model performance:
 
 - **BPP vs PSNR**
-- **BPP vs MS-SSIM**
 - **BPP vs Loss**
 
 You can find the plot here:  
@@ -22,8 +21,8 @@ You can find the plot here:
 The reconstructed images demonstrate how well the model preserves visual quality after compression. Some sample images are:
 
 - `kodim01.png`
-- `kodim08.png`
-- `kodim24.png`
+- `kodim04.png`
+- `kodim07.png`
 
 All reconstructed output images are located in the folder:  
 �� `reconstructed_images/`
@@ -54,7 +53,6 @@ The model performance is evaluated using:
 
 - **PSNR (Peak Signal-to-Noise Ratio)**
 - **MS-SSIM (Multi-Scale Structural Similarity Index)**
-- **LPIPS (Learned Perceptual Image Patch Similarity)**
 - **Compression Ratio (BPP)**
 
 ---
