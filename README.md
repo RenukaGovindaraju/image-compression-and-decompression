@@ -31,16 +31,7 @@ These images were generated using the **best trained model checkpoint**:
 
 📍 `experiments/Mamba_Final_Correct_Path/checkpoints/best_model_e081_loss0.4181.pth.tar`
 
-> ℹ️ **Note**: This model file exceeds GitHub's upload limit of 100MB, so it is hosted externally.
-
----
-
-## �� Download Best Model
-
-You can download the best model checkpoint from this link:  
-👉 [Download best_model_e081_loss0.4181.pth.tar](https://drive.google.com/your-shareable-link)
-
----
+-
 
 ## 📦 Folder Structure
 
